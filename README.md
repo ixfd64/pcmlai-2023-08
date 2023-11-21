@@ -10,6 +10,14 @@ A business is delivering coupons to drivers for food-related establishments in t
 
 * [module5.1](module5.1)
 
+### Practical Application Assignment 11.1: What Drives the Price of a Car?
+
+The used car market is one of the largest in the world. Used cars are in high demand because they are typically sold at discounted prices while remaining usable.
+
+In this exercise, a used car dealership wishes to develop a model using the [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) methodology to analyze used car sales. We develop and analyze a model to provide insights on how it could make a business more profitable.
+
+* [module11.1](module11.1)
+
 ## Usage
 
 Simply upload the Jupyter Notebooks and the accompanying data files to your Google Drive, and then open the Notebook in Google Colab. You will need to update the path to the data file or use the same directory structure. Please see the [Google Colab tutorial](https://colab.research.google.com/drive/16pBJQePbqkz3QFV54L4NIkOn1kwpuRrj) for more information.
