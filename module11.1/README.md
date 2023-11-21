@@ -78,23 +78,23 @@ It may be useful to collect additional data that could be used in future models:
 
 * Count plot of car condition
 
-![](../images/11.1/count_condition.png)
+![](images/count_condition.png)
 
 * Count plot of title status
 
-![](../images/11.1/count_title.png)
+![](images/count_title.png)
 
 * Distribution of adjusted price
 
-![](../images/11.1/adj_price.png)
+![](images/adj_price.png)
 
 * Distribution of adjusted mileage
 
-![](../images/11.1/adj_mileage.png)
+![](images/adj_mileage.png)
 
 * Feature importance
 
-![](../images/11.1/importance.png)
+![](images/importance.png)
 
 ### Usage
 

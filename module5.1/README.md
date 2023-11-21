@@ -67,19 +67,19 @@ Some of our findings include:
 
 * Acceptance rate of coupons, separated by establishment type
 
-![](../images/5.1/coupons.png)
+![](images/coupons.png)
 
 * Acceptance rate of coupons, separated by income
 
-![](../images/5.1/income.png)
+![](images/income.png)
 
 * Acceptance rate of bar coupons, separated by frequency of visits
 
-![](../images/5.1/bar_visits.png)
+![](images/bar_visits.png)
 
 * Acceptance rate of bar coupons, separated by marital status
 
-![](../images/5.1/bar_maritalstatus.png)
+![](images/bar_maritalstatus.png)
 
 ### Usage
 
