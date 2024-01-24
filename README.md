@@ -18,6 +18,14 @@ In this exercise, a used car dealership wishes to develop a model using the [CRI
 
 * [module11.1](module11.1)
 
+### Practical Application Assignment 17.1: Comparing Classifiers
+
+A financial institution based in Portugal has collected data for over 41,000 telemarketing calls made over a five-year period. It wishes to use this data to predict whether or not a sales lead may become a client in the future. Given the opportunity cost of missing out on a potential customer, the ultimate goal is to minimize the number of false negatives.
+
+Because each lead either is or is not a customer, this is a binary classification problem. We implement several different models (such as *k*-nearest neighbors, logistic regression and support vector machines) to find the one with the highest predictive performance, and we also investigate methods to further optimize the models.
+
+* [module17.1](module17.1)
+
 ## Usage
 
 Simply upload the Jupyter Notebooks and the accompanying data files to your Google Drive, and then open the Notebook in Google Colab. You will need to update the path to the data file or use the same directory structure. Please see the [Google Colab tutorial](https://colab.research.google.com/drive/16pBJQePbqkz3QFV54L4NIkOn1kwpuRrj) for more information.
