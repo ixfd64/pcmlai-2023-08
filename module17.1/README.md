@@ -44,9 +44,11 @@ The data set contains 21 features:
 
 * `y` - whether or not the lead has subscribed to a term deposit
 
+**Please note:** Due to performance reasons, only a subset of the original data was used for this exercise. In real-world scenarios, the use of additional features is likely to result in improved predictive performance.
+
 ### Data cleaning
 
-The data set contains no null values. It appears any missing data was replaced with "unknown" for all categorical variables.
+The data set contains no null values. It appears any missing data was replaced with "unknown" for all categorical variables. The numeric data does not appear to contain outliers.
 
 Although no data cleaning was required for this exercise, a copy of the data set where "unknown" was replaced with the mode of the feature was used as comparison. However, this did not significantly affect the models' performance.
 
@@ -77,9 +79,16 @@ Some of our findings from the results include:
 * Although the assignment suggests exploring the gender feature, no such feature exists in the data set
 * Hyperparameter tuning did not significantly affect the results of the decision tree classifier
 
-**Please note:** Due to performance reasons, only a subset of the original data was used for this exercise. In real-world scenarios, the use of additional features is likely to result in improved predictive performance.
+### Business recommendations
 
-#### Sample visualizations
+* Telephone calls remain the most effective marketing strategy (as much as we hate telemarketers)
+* In real-world situations, the full data set should be used when possible because more features could result in better predictive performance. Larger companies tend to have resources that can handle computationally intensive tasks
+* It may be useful to collect additional data that could be used in future models:
+  * The lead's gender
+  * The lead's income range
+  * A categorical feature that indicates the lead's reason for declining an offer
+
+### Sample visualizations
 
 * Distribution of `y`
 
@@ -89,7 +98,7 @@ Some of our findings from the results include:
 
 ![](images/dt_importance.png)
 
-* Predictive performance
+* Predictive performance and run times. Please note the run times vary between Colab sessions depending on Colab server load
 
 ![](images/scores.png)
 
